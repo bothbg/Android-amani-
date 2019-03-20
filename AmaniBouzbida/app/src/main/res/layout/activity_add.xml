@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:background="#C8D9E0"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chnwa sraft lyoum ?"
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="chrit ...."
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soumou...."
+        android:textSize="50sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:background="#03A9F4"
+        android:id="@+id/b"
+        android:layout_marginTop="50dp"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Valider"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
